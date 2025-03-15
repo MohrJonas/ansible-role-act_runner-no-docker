@@ -50,3 +50,12 @@
     name: "{{ act_runner_identifier }}"
     state: "started"
     enabled: true
+
+- name: Install required packages
+  ansible.builtin.apt:
+    name:
+      - git
+      - nodejs
+      - wget
+      - curl
+    state: present
