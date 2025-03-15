@@ -58,4 +58,12 @@
       - nodejs
       - wget
       - curl
+      - sudo
     state: present
+
+- name: Allow act runner to run ansible as root
+  community.general.sudoers:
+    name: allow-act_runner-ansible
+    state: present
+    user: "{{ act_runner_user }}"
+    commands: ansible-playbook
