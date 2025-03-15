@@ -66,4 +66,4 @@
     name: allow-act_runner-ansible
     state: present
     user: "{{ act_runner_user }}"
-    commands: ansible-playbook
+    commands: /usr/bin/ansible-playbook
