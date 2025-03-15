@@ -5,3 +5,4 @@ act_runner_version: "0.2.11"
 act_runner_download_checksum: sha256:7a5e833793286bbfd9b59ce682bd41fc3f1c096bae1bb2a09b66ab2f6dacf90c
 act_runner_download_url: "https://gitea.com/gitea/act_runner/releases/download/v{{ act_runner_version }}/act_runner-{{ act_runner_version }}-linux-amd64"
 act_runner_identifier: act_runner
+act_runner_labels: linux_amd64:host
