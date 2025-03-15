@@ -1,7 +1,7 @@
 ---
 act_runner_user: act_runner
 act_runner_dir: /home/{{act_runner_user}}/act_runner
-act_runner_version: "0.2.0"
-act_runner_download_checksum: sha256:904033a4ce7f90f1aaf9e8c35877db08f3e791287896de2bad55f4f7eefd1e8b
-act_runner_download_url: "https://dl.gitea.com/act_runner/{{ act_runner_version }}/act_runner-{{ act_runner_version }}-linux-amd64"
+act_runner_version: "0.2.11"
+act_runner_download_checksum: sha256:7a5e833793286bbfd9b59ce682bd41fc3f1c096bae1bb2a09b66ab2f6dacf90c
+act_runner_download_url: "https://gitea.com/gitea/act_runner/releases/download/v{{ act_runner_version }}/act_runner-{{ act_runner_version }}-linux-amd64"
 act_runner_identifier: act_runner
