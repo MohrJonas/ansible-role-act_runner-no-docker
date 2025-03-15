@@ -1,17 +1,6 @@
----
-- name: Install dependencies
-  ansible.builtin.package:
-    name: "{{ item }}"
-    update_cache: true
-    state: present
-  with_items:
-    - docker.io
-
 - name: Add user
   ansible.builtin.user:
     name: "{{ act_runner_user }}"
-    groups: docker
-    append: true
 
 - name: Create application directories
   ansible.builtin.file:
